@@ -26,7 +26,7 @@ def gerador_cpf():
 #layout
 sg.theme('BlueMono')
 layout = [
-    [sg.Image(filename="image\cpf.png")],
+    [sg.Image(filename='CPF\image\cpf.png')],
     [sg.Text("Cpf matematicamente válidos")],
     [sg.InputText('', key='result', size=(35, 1))],
     [sg.Button('Gerar CPF'), sg.Button('Cancelar')],
